@@ -1,0 +1,309 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to bottom, #f0f0f5, #ffffff);
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-container {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    width: 150px;
+}
+
+.white-logo {
+    filter: invert(100%);
+}
+
+.black-logo {
+    filter: invert(0%);
+}
+
+.overlay-nav {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.overlay-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.overlay-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about-content h2 {
+    font-size: 2.0em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    position: static;
+    bottom: 0;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to bottom, #f0f0f5, #ffffff);
+}
+
+.header-image {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.center-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    width: 150px;
+}
+
+.white-logo {
+    filter: invert(100%);
+}
+
+.overlay-nav {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.overlay-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.overlay-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;  /* Reduced from 40px to 20px */
+}
+
+.header-logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+main {
+    padding: 20px;  /* Reduced from 30px to 20px */
+    text-align: center;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project-description {
+    width: 40%;
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.project-description h2 {
+    font-size: 2.0em;
+    margin-bottom: 10px;  /* Reduced from 20px to 10px */
+}
+
+.project-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project-carousel {
+    width: 48%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: static;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.image-caption {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    position: static;
+    bottom: 0;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to bottom, #f0f0f5, #ffffff);
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.join-text {
+    color: grey;
+    max-width: 600px; /* Set your desired max width */
+    margin: 0 auto; /* Center align */
+    word-wrap: break-word; /* Ensure long words break properly */
+    overflow-wrap: break-word; /* For better browser compatibility */
+    text-align: center; /* Center the text */
+}
