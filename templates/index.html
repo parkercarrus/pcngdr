@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - PCNG AI Group</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='images/header-image.jpeg') }}" alt="Header Image" class="header-image">
+            <img src="{{ url_for('static', filename='images/Unique_Shapes45.webp') }}" alt="Logo" class="center-logo white-logo">
+            <nav class="overlay-nav">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="title">
+        <img src="{{ url_for('static', filename='images/Unique_Shapes45.webp') }}" alt="Logo" class="header-logo black-logo">
+        <h1>PCNG AI Group</h1>
+    </div>
+    <main>
+        <section class="about-content">
+            <h2>About Us</h2>
+            <p>PCNG AI Group is a forward-thinking group specializing in artificial intelligence and machine learning solutions. Our mission is to utilize the world’s most cutting-edge research to drive innovation and efficiency in various industries. With a team of dedicated developers and AI experts, we strive to deliver state-of-the-art AI-powered products, solutions, and services tailored to meet the unique needs of our clients.
+            </p>
+            <p>Our expertise spans across a wide range of AI applications, including predictive analytics, computer vision, time-series forecasting, and more. At PCNG AI Group, we are committed to staying at the forefront of AI technology, continuously pushing frontiers to provide our clients with the very best solutions that can transform their business.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: <a href="mailto:contact@pcng-ai-group.com">contact@pcng-ai-group.com</a> | <a href="https://linkedin.com/company/pcng-ai-group" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+</html>

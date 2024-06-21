@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PCNG AI Group</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='images/header-image.jpeg') }}" alt="Header Image" class="header-image">
+            <img src="{{ url_for('static', filename='images/Unique_Shapes45.webp') }}" alt="Logo" class="center-logo white-logo">
+            <nav class="overlay-nav">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contact-main">
+        <div class="contact-header">
+            <img src="{{ url_for('static', filename='images/Unique_Shapes45.webp') }}" alt="Logo" class="contact-logo">
+            <h1>PCNG AI Group</h1>
+        </div>
+        <div class="contact-info">
+            <p> Inquiries: contact@pcngai.com</p> <br> <br>
+            <p>Parker Carrus, Development</p>
+            <p>carrusparker@gmail.com</p>
+            <p>+1 (440) 321-3272</p> <br>
+            <p>Nicholas Garcia-Whitko, Operations</p>
+            <p>nickxgw@gmail.com</p>
+            <p>+1 (216) 401-1532</p> <br><br><br>
+            <p class="join-text">
+                If you are interested in joining our team, do not hesistate to reach out. We are always open to talented data scientists and software developers to help deliver powerful AI products.
+            </p>    
+            </div>
+    </main>
+</body>
+</html>
